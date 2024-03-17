@@ -1,0 +1,1 @@
+Data Source=NMEKIC-INT;Initial Catalog=CodeFirstPartTwoDb;User Id=sa;Password=yuseifudo;
