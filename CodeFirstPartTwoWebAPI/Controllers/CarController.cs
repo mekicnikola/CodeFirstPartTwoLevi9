@@ -32,7 +32,8 @@ namespace CodeFirstPartTwoWebAPI.Controllers
         [HttpPut("{id}")]
         public IActionResult PutCar(int id, CreateCarDto carDto)
         {
-            if (!ModelState.IsValid)
+            var modelStatusStateIsNotValid = !ModelState.IsValid;
+            if (modelStatusStateIsNotValid)
             {
                 return BadRequest(ModelState);
             }

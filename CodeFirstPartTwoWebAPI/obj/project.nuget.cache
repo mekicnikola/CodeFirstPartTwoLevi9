@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dWTtZjt1GDpoHm/GBdlVtCR1RtJSSUHxUaETAfv+1NwF4f3FjWA6Oxfyar+iJiBSqBsZD0MfHOO+VQwZ4Hr1TA==",
+  "dgSpecHash": "0EkgLHM7bShAJrA4QI+IOfrR1SCRpCVETjAfZP09zwLdlZaieC7gMe3FjuA6fL7matUWa4YLzTBPLud4lBdDyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwo\\CodeFirstPartTwoWebAPI\\CodeFirstPartTwoWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoWebAPI\\CodeFirstPartTwoWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NikolaMekic\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\NikolaMekic\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

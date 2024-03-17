@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwo\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj": {}
+    "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwo\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj": {
+    "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwo\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj",
+        "projectUniqueName": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj",
         "projectName": "CodeFirstPartTwoApplication",
-        "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwo\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj",
+        "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj",
         "packagesPath": "C:\\Users\\NikolaMekic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwo\\CodeFirstPartTwoApplication\\obj\\",
+        "outputPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NikolaMekic\\AppData\\Roaming\\NuGet\\NuGet.Config",

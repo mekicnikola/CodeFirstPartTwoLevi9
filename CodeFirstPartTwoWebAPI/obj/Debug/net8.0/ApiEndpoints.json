@@ -107,5 +107,114 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeFirstPartTwoWebAPI.Controllers.EngineTypeController",
+    "Method": "GetEngineTypes",
+    "RelativePath": "api/EngineType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CodeFirstPartTwoApp.Models.EngineType, CodeFirstPartTwoApplication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CodeFirstPartTwoWebAPI.Controllers.EngineTypeController",
+    "Method": "PostEngineType",
+    "RelativePath": "api/EngineType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "engineTypeDto",
+        "Type": "CodeFirstPartTwoService.Dto.CreateEngineTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CodeFirstPartTwoApp.Models.EngineType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CodeFirstPartTwoWebAPI.Controllers.EngineTypeController",
+    "Method": "GetEngineType",
+    "RelativePath": "api/EngineType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CodeFirstPartTwoApp.Models.EngineType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CodeFirstPartTwoWebAPI.Controllers.EngineTypeController",
+    "Method": "PutEngineType",
+    "RelativePath": "api/EngineType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "engineTypeDto",
+        "Type": "CodeFirstPartTwoService.Dto.CreateEngineTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeFirstPartTwoWebAPI.Controllers.EngineTypeController",
+    "Method": "DeleteEngineType",
+    "RelativePath": "api/EngineType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

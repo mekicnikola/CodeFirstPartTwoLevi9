@@ -13,6 +13,7 @@ builder.Services.AddSwaggerGen();
 //added
 builder.Services.AddScoped<ApplicationContext>();
 builder.Services.AddScoped<ICarService, CarService>();
+builder.Services.AddScoped<IEngineTypeService, EngineTypeService>();
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;

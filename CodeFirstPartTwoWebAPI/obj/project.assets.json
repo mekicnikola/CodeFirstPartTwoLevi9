@@ -1537,11 +1537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwo\\CodeFirstPartTwoWebAPI\\CodeFirstPartTwoWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoWebAPI\\CodeFirstPartTwoWebAPI.csproj",
       "projectName": "CodeFirstPartTwoWebAPI",
-      "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwo\\CodeFirstPartTwoWebAPI\\CodeFirstPartTwoWebAPI.csproj",
+      "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoWebAPI\\CodeFirstPartTwoWebAPI.csproj",
       "packagesPath": "C:\\Users\\NikolaMekic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwo\\CodeFirstPartTwoWebAPI\\obj\\",
+      "outputPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NikolaMekic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1558,8 +1558,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwo\\CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj": {
-              "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwo\\CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj"
+            "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj": {
+              "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj"
             }
           }
         }
