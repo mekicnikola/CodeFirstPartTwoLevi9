@@ -3,12 +3,8 @@ using CodeFirstPartTwoApp.Models;
 
 namespace CodeFirstPartTwoApplication.Data
 {
-    public class ApplicationContext : DbContext
+    public class ApplicationContext() : DbContext(GetConnectionString())
     {
-        public ApplicationContext() : base( GetConnectionString())
-        {
-        }
-
         public DbSet<Car> Cars { get; set; }
         public DbSet<Engine> Engines { get; set; }
         public DbSet<EngineType> EngineTypes { get; set; }
