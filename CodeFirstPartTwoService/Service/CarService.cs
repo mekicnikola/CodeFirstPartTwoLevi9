@@ -3,7 +3,7 @@ using CodeFirstPartTwoApp.Models;
 using CodeFirstPartTwoApplication.Data;
 using CodeFirstPartTwoService.Dto;
 
-namespace CodeFirstPartTwoService
+namespace CodeFirstPartTwoService.Service
 {
     public class CarService(ApplicationContext context) : ICarService
     {
@@ -43,6 +43,39 @@ namespace CodeFirstPartTwoService
 
             context.Cars.Add(car);
             context.SaveChanges();
+
+            return car;
+        }
+
+        public async Task<Car> AddCarAsync(CreateCarDto carDto)
+        {
+            var carApiService = new CarApiService();
+            var isModelAvailable = await carApiService.IsModelAvailableAsync(carDto.Model, carDto.Year, carDto.Brand);
+
+            if (!isModelAvailable)
+            {
+                throw new ArgumentException("Model not available.");
+            }
+
+            var car = new Car
+            {
+                Color = carDto.Color,
+                Year = carDto.Year,
+                ChassisNumber = carDto.ChassisNumber,
+                Brand = carDto.Brand,
+                Model = carDto.Model,
+                Engine = new Engine
+                {
+                    Year = carDto.Engine.Year,
+                    Brand = carDto.Engine.Brand,
+                    SerialNumber = carDto.Engine.SerialNumber,
+                    Type = carDto.Engine.Type,
+                    EngineTypeId = carDto.Engine.EngineTypeId
+                }
+            };
+
+            context.Cars.Add(car);
+            await context.SaveChangesAsync();
 
             return car;
         }

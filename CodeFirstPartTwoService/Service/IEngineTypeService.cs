@@ -3,7 +3,7 @@
 using CodeFirstPartTwoApp.Models;
 using CodeFirstPartTwoService.Dto;
 
-namespace CodeFirstPartTwoService
+namespace CodeFirstPartTwoService.Service
 {
     public interface IEngineTypeService
     {

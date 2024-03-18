@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CodeFirstPartTwoService.Dto;
 
-namespace CodeFirstPartTwoService
+namespace CodeFirstPartTwoService.Service
 {
     public class EngineTypeService(ApplicationContext context) : IEngineTypeService
     {
@@ -55,7 +55,7 @@ namespace CodeFirstPartTwoService
                 context.SaveChanges();
             }
 
-            
+
         }
     }
 }

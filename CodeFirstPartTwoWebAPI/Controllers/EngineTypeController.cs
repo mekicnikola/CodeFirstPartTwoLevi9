@@ -1,6 +1,6 @@
 ﻿using CodeFirstPartTwoApp.Models;
-using CodeFirstPartTwoService;
 using CodeFirstPartTwoService.Dto;
+using CodeFirstPartTwoService.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CodeFirstPartTwoWebAPI.Controllers

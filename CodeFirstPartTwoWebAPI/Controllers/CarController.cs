@@ -1,7 +1,8 @@
 ﻿using CodeFirstPartTwoApp.Models;
-using CodeFirstPartTwoService;
 using CodeFirstPartTwoService.Dto;
+using CodeFirstPartTwoService.Service;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace CodeFirstPartTwoWebAPI.Controllers
 {
@@ -22,11 +23,25 @@ namespace CodeFirstPartTwoWebAPI.Controllers
             return car == null ? NotFound() : Ok(car);
         }
 
+        //[HttpPost]
+        //public ActionResult<Car> PostCar(CreateCarDto carDto)
+        //{
+        //    var car = carService.AddCarAsync(carDto);
+        //    return CreatedAtAction(nameof(GetCar), new { id = car.CarId }, car);
+        //}
+
         [HttpPost]
-        public ActionResult<Car> PostCar(CreateCarDto carDto)
+        public async Task<ActionResult<Car>> PostCar(CreateCarDto carDto)
         {
-            var car = carService.AddCar(carDto);
-            return CreatedAtAction(nameof(GetCar), new { id = car.CarId }, car);
+            try
+            {
+                var car = await carService.AddCarAsync(carDto);
+                return CreatedAtAction(nameof(GetCar), new { id = car.CarId }, car);
+            }
+            catch (ValidationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpPut("{id}")]

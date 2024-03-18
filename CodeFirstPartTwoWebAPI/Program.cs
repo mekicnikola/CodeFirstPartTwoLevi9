@@ -1,5 +1,5 @@
 using CodeFirstPartTwoApplication.Data;
-using CodeFirstPartTwoService;
+using CodeFirstPartTwoService.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
