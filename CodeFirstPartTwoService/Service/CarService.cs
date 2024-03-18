@@ -9,13 +9,11 @@ namespace CodeFirstPartTwoService.Service
     {
         public IEnumerable<Car> GetAllCars()
         {
-            //return _context.Cars.ToList();
             return context.Cars.Include(c => c.Engine).ToList();
         }
 
         public Car GetCarById(int id)
         {
-            //return _context.Cars.Find(id);
             var carWithEngine = context.Cars
                 .Include(c => c.Engine)
                 .FirstOrDefault(c => c.CarId == id);
@@ -49,14 +47,6 @@ namespace CodeFirstPartTwoService.Service
 
         public async Task<Car> AddCarAsync(CreateCarDto carDto)
         {
-            var carApiService = new CarApiService();
-            var isModelAvailable = await carApiService.IsModelAvailableAsync(carDto.Model, carDto.Year, carDto.Brand);
-
-            if (!isModelAvailable)
-            {
-                throw new ArgumentException("Model not available.");
-            }
-
             var car = new Car
             {
                 Color = carDto.Color,

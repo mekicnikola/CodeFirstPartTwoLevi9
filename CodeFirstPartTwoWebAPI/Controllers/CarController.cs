@@ -2,7 +2,7 @@
 using CodeFirstPartTwoService.Dto;
 using CodeFirstPartTwoService.Service;
 using Microsoft.AspNetCore.Mvc;
-using System.ComponentModel.DataAnnotations;
+using CodeFirstPartTwoService;
 
 namespace CodeFirstPartTwoWebAPI.Controllers
 {
@@ -23,29 +23,28 @@ namespace CodeFirstPartTwoWebAPI.Controllers
             return car == null ? NotFound() : Ok(car);
         }
 
-        //[HttpPost]
-        //public ActionResult<Car> PostCar(CreateCarDto carDto)
-        //{
-        //    var car = carService.AddCarAsync(carDto);
-        //    return CreatedAtAction(nameof(GetCar), new { id = car.CarId }, car);
-        //}
-
         [HttpPost]
-        public async Task<ActionResult<Car>> PostCar(CreateCarDto carDto)
+        public async Task<IActionResult> PostCar([FromBody] CreateCarDto carDto)
         {
-            try
+            var carApiService = new CarApiService();
+            var validator = new CarValidator(carApiService);
+
+            var validationResult = await validator.ValidateAsync(carDto);
+            if (!validationResult.IsValid)
             {
-                var car = await carService.AddCarAsync(carDto);
-                return CreatedAtAction(nameof(GetCar), new { id = car.CarId }, car);
+                var validationErrors = validationResult.Errors
+                    .Select(e => new { e.PropertyName, e.ErrorMessage })
+                    .ToList();
+
+                return BadRequest(new { Errors = validationErrors });
             }
-            catch (ValidationException ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            var car = await carService.AddCarAsync(carDto);
+            return CreatedAtAction(nameof(GetCar), new { id = car.CarId }, car);
+
         }
 
         [HttpPut("{id}")]
-        public IActionResult PutCar(int id, CreateCarDto carDto)
+        public async Task<IActionResult> PutCar(int id, CreateCarDto carDto)
         {
             var modelStatusStateIsNotValid = !ModelState.IsValid;
             if (modelStatusStateIsNotValid)
@@ -56,6 +55,18 @@ namespace CodeFirstPartTwoWebAPI.Controllers
             if (car == null)
             {
                 return NotFound();
+            }
+            var carApiService = new CarApiService();
+            var validator = new CarValidator(carApiService);
+
+            var validationResult = await validator.ValidateAsync(carDto);
+            if (!validationResult.IsValid)
+            {
+                var validationErrors = validationResult.Errors
+                    .Select(e => new { e.PropertyName, e.ErrorMessage })
+                    .ToList();
+
+                return BadRequest(new { Errors = validationErrors });
             }
             carService.UpdateCar(id, carDto);
             return NoContent();

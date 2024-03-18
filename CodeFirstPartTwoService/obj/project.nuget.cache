@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8MuWMqgka0vudixosGgd7GM0IoUH5VUu8Fp6EfpCgZbWUzCYwxfYnJZ8TI7FqgR3GfSmHFuWI/ctJBmCG/jzvA==",
+  "dgSpecHash": "Fdbinck8mzIzsPgDTQ8kbSmH+oGtOZun683Zr6LcXJVObeAYcP2C3k1raDb+33mi/CaXLQ0bUG0ExgUnLs2xrg==",
   "success": true,
   "projectFilePath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NikolaMekic\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\NikolaMekic\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\NikolaMekic\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\NikolaMekic\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\NikolaMekic\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

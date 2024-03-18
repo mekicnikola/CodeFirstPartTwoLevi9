@@ -120,3 +120,4 @@ C:\Users\NikolaMekic\Desktop\webAPI\CodeFirstPartTwoLevi9\CodeFirstPartTwoWebAPI
 C:\Users\NikolaMekic\Desktop\webAPI\CodeFirstPartTwoLevi9\CodeFirstPartTwoWebAPI\obj\Debug\net8.0\CodeFirstPartTwoWebAPI.genruntimeconfig.cache
 C:\Users\NikolaMekic\Desktop\webAPI\CodeFirstPartTwoLevi9\CodeFirstPartTwoWebAPI\obj\Debug\net8.0\ref\CodeFirstPartTwoWebAPI.dll
 C:\Users\NikolaMekic\Desktop\webAPI\CodeFirstPartTwoLevi9\CodeFirstPartTwoWebAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\NikolaMekic\Desktop\webAPI\CodeFirstPartTwoLevi9\CodeFirstPartTwoWebAPI\bin\Debug\net8.0\FluentValidation.dll
