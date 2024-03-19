@@ -3,12 +3,16 @@ using Newtonsoft.Json;
 
 namespace CodeFirstPartTwoService
 {
-    public class CarApiService
+    public class CarApiService: ICarApiService
     {
         private readonly HttpClient _httpClient = new();
         private readonly string _apiKey = GetKey("carApiKey.txt");
         private readonly string _apiHost = GetKey("carApiHost.txt");
 
+        public CarApiService(HttpClient httpClient)
+        {
+            _httpClient = httpClient;
+        }
         public async Task<bool> IsModelAvailableAsync(string model, int year, string brand)
         {
             var requestUri = $"https://car-api2.p.rapidapi.com/api/models?model={Uri.EscapeDataString(model)}&year={year}&make={Uri.EscapeDataString(brand)}";

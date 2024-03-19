@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D00324B7-E34E-479D-BC6D-26AD3A2D7E74}|CodeFirstPartTwoService.Tests\\CodeFirstPartTwoService.Tests.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice.tests\\carapiservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00324B7-E34E-479D-BC6D-26AD3A2D7E74}|CodeFirstPartTwoService.Tests\\CodeFirstPartTwoService.Tests.csproj|solutionrelative:codefirstparttwoservice.tests\\carapiservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice\\carvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|solutionrelative:codefirstparttwoservice\\carvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice\\validationerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|solutionrelative:codefirstparttwoservice\\validationerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85218A6E-FA95-4C8E-A279-45450EEF5B15}|CodeFirstPartTwoWebAPI\\CodeFirstPartTwoWebAPI.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwowebapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85218A6E-FA95-4C8E-A279-45450EEF5B15}|CodeFirstPartTwoWebAPI\\CodeFirstPartTwoWebAPI.csproj|solutionrelative:codefirstparttwowebapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice\\service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|solutionrelative:codefirstparttwoservice\\service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice\\carapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|solutionrelative:codefirstparttwoservice\\carapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice\\icarapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|solutionrelative:codefirstparttwoservice\\icarapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85218A6E-FA95-4C8E-A279-45450EEF5B15}|CodeFirstPartTwoWebAPI\\CodeFirstPartTwoWebAPI.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwowebapi\\controllers\\enginetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85218A6E-FA95-4C8E-A279-45450EEF5B15}|CodeFirstPartTwoWebAPI\\CodeFirstPartTwoWebAPI.csproj|solutionrelative:codefirstparttwowebapi\\controllers\\enginetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice\\service\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|solutionrelative:codefirstparttwoservice\\service\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice\\carapiresponse\\cardata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|solutionrelative:codefirstparttwoservice\\carapiresponse\\cardata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice\\carapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|solutionrelative:codefirstparttwoservice\\carapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice\\service\\ienginetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|solutionrelative:codefirstparttwoservice\\service\\ienginetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice\\carapihost.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|solutionrelative:codefirstparttwoservice\\carapihost.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwoservice\\service\\enginetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}|CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj|solutionrelative:codefirstparttwoservice\\service\\enginetypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85218A6E-FA95-4C8E-A279-45450EEF5B15}|CodeFirstPartTwoWebAPI\\CodeFirstPartTwoWebAPI.csproj|c:\\users\\nikolamekic\\desktop\\webapi\\codefirstparttwolevi9\\codefirstparttwowebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,63 +58,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EngineTypeController.cs",
-              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoWebAPI\\Controllers\\EngineTypeController.cs",
-              "RelativeDocumentMoniker": "CodeFirstPartTwoWebAPI\\Controllers\\EngineTypeController.cs",
-              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoWebAPI\\Controllers\\EngineTypeController.cs",
-              "RelativeToolTip": "CodeFirstPartTwoWebAPI\\Controllers\\EngineTypeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "CarApiServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService.Tests\\CarApiServiceTest.cs",
+              "RelativeDocumentMoniker": "CodeFirstPartTwoService.Tests\\CarApiServiceTest.cs",
+              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService.Tests\\CarApiServiceTest.cs",
+              "RelativeToolTip": "CodeFirstPartTwoService.Tests\\CarApiServiceTest.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAowGgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T13:30:51.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CarService.cs",
-              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\Service\\CarService.cs",
-              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\Service\\CarService.cs",
-              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\Service\\CarService.cs",
-              "RelativeToolTip": "CodeFirstPartTwoService\\Service\\CarService.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAswGgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T12:53:14.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICarService.cs",
-              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\Service\\ICarService.cs",
-              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\Service\\ICarService.cs",
-              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\Service\\ICarService.cs",
-              "RelativeToolTip": "CodeFirstPartTwoService\\Service\\ICarService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T12:53:08.298Z",
+              "WhenOpened": "2024-03-19T10:33:44.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CarValidator.cs",
+              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CarValidator.cs",
+              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\CarValidator.cs",
+              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CarValidator.cs",
+              "RelativeToolTip": "CodeFirstPartTwoService\\CarValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T12:01:10.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidationError.cs",
+              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\ValidationError.cs",
+              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\ValidationError.cs",
+              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\ValidationError.cs",
+              "RelativeToolTip": "CodeFirstPartTwoService\\ValidationError.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T13:02:30.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CarController.cs",
               "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoWebAPI\\Controllers\\CarController.cs",
               "RelativeDocumentMoniker": "CodeFirstPartTwoWebAPI\\Controllers\\CarController.cs",
               "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoWebAPI\\Controllers\\CarController.cs",
               "RelativeToolTip": "CodeFirstPartTwoWebAPI\\Controllers\\CarController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA6wB4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T12:44:54.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICarApiService.cs",
+              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\ICarApiService.cs",
+              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\ICarApiService.cs",
+              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\ICarApiService.cs",
+              "RelativeToolTip": "CodeFirstPartTwoService\\ICarApiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T14:26:39.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarApiService.cs",
+              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CarApiService.cs",
+              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\CarApiService.cs",
+              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CarApiService.cs",
+              "RelativeToolTip": "CodeFirstPartTwoService\\CarApiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:43:14.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "EngineTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoWebAPI\\Controllers\\EngineTypeController.cs",
+              "RelativeDocumentMoniker": "CodeFirstPartTwoWebAPI\\Controllers\\EngineTypeController.cs",
+              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoWebAPI\\Controllers\\EngineTypeController.cs",
+              "RelativeToolTip": "CodeFirstPartTwoWebAPI\\Controllers\\EngineTypeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T13:30:51.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEngineTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\Service\\IEngineTypeService.cs",
+              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\Service\\IEngineTypeService.cs",
+              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\Service\\IEngineTypeService.cs",
+              "RelativeToolTip": "CodeFirstPartTwoService\\Service\\IEngineTypeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:44:28.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarData.cs",
+              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CarApiResponse\\CarData.cs",
+              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\CarApiResponse\\CarData.cs",
+              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CarApiResponse\\CarData.cs",
+              "RelativeToolTip": "CodeFirstPartTwoService\\CarApiResponse\\CarData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:48:57.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EngineTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\Service\\EngineTypeService.cs",
+              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\Service\\EngineTypeService.cs",
+              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\Service\\EngineTypeService.cs",
+              "RelativeToolTip": "CodeFirstPartTwoService\\Service\\EngineTypeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:32:26.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "carApiHost.txt",
+              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\carApiHost.txt",
+              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\carApiHost.txt",
+              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\carApiHost.txt",
+              "RelativeToolTip": "CodeFirstPartTwoService\\carApiHost.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-19T10:35:13.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "CodeFirstPartTwoWebAPI\\Program.cs",
@@ -102,34 +213,7 @@
               "RelativeToolTip": "CodeFirstPartTwoWebAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T12:40:41.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CarApiService.cs",
-              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CarApiService.cs",
-              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\CarApiService.cs",
-              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CarApiService.cs",
-              "RelativeToolTip": "CodeFirstPartTwoService\\CarApiService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T12:36:55.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarValidator.cs",
-              "DocumentMoniker": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CarValidator.cs",
-              "RelativeDocumentMoniker": "CodeFirstPartTwoService\\CarValidator.cs",
-              "ToolTip": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CarValidator.cs",
-              "RelativeToolTip": "CodeFirstPartTwoService\\CarValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T12:36:56.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T12:40:41.903Z"
             }
           ]
         }

@@ -1,0 +1,241 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService.Tests\\CodeFirstPartTwoService.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj",
+        "projectName": "CodeFirstPartTwoApplication",
+        "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj",
+        "packagesPath": "C:\\Users\\NikolaMekic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NikolaMekic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService.Tests\\CodeFirstPartTwoService.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService.Tests\\CodeFirstPartTwoService.Tests.csproj",
+        "projectName": "CodeFirstPartTwoService.Tests",
+        "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService.Tests\\CodeFirstPartTwoService.Tests.csproj",
+        "packagesPath": "C:\\Users\\NikolaMekic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NikolaMekic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj": {
+                "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj"
+              },
+              "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj": {
+                "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj",
+        "projectName": "CodeFirstPartTwoService",
+        "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\CodeFirstPartTwoService.csproj",
+        "packagesPath": "C:\\Users\\NikolaMekic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NikolaMekic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj": {
+                "projectPath": "C:\\Users\\NikolaMekic\\Desktop\\webAPI\\CodeFirstPartTwoLevi9\\CodeFirstPartTwoApplication\\CodeFirstPartTwoApplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

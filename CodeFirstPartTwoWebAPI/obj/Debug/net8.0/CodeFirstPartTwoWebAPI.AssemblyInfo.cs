@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeFirstPartTwoWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+933c6ace3b97000ec68e2812c954d4c754f9ce3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3780ad3255d3d39559e05d8a607b6da1e9340cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeFirstPartTwoWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeFirstPartTwoWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

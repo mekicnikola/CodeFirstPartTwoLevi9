@@ -3,6 +3,7 @@ using CodeFirstPartTwoService.Dto;
 using CodeFirstPartTwoService.Service;
 using Microsoft.AspNetCore.Mvc;
 using CodeFirstPartTwoService;
+using FluentValidation.Results;
 
 namespace CodeFirstPartTwoWebAPI.Controllers
 {
@@ -26,21 +27,17 @@ namespace CodeFirstPartTwoWebAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> PostCar([FromBody] CreateCarDto carDto)
         {
-            var carApiService = new CarApiService();
+            HttpClient httpClient = new();
+            var carApiService = new CarApiService(httpClient);
             var validator = new CarValidator(carApiService);
 
             var validationResult = await validator.ValidateAsync(carDto);
             if (!validationResult.IsValid)
             {
-                var validationErrors = validationResult.Errors
-                    .Select(e => new { e.PropertyName, e.ErrorMessage })
-                    .ToList();
-
-                return BadRequest(new { Errors = validationErrors });
+                return BadRequest(new { Errors = ReturnValidationError(validationResult) });
             }
             var car = await carService.AddCarAsync(carDto);
             return CreatedAtAction(nameof(GetCar), new { id = car.CarId }, car);
-
         }
 
         [HttpPut("{id}")]
@@ -56,17 +53,14 @@ namespace CodeFirstPartTwoWebAPI.Controllers
             {
                 return NotFound();
             }
-            var carApiService = new CarApiService();
+            HttpClient httpClient = new();
+            var carApiService = new CarApiService(httpClient);
             var validator = new CarValidator(carApiService);
 
             var validationResult = await validator.ValidateAsync(carDto);
             if (!validationResult.IsValid)
             {
-                var validationErrors = validationResult.Errors
-                    .Select(e => new { e.PropertyName, e.ErrorMessage })
-                    .ToList();
-
-                return BadRequest(new { Errors = validationErrors });
+                return BadRequest(new { Errors = ReturnValidationError(validationResult) });
             }
             carService.UpdateCar(id, carDto);
             return NoContent();
@@ -82,6 +76,15 @@ namespace CodeFirstPartTwoWebAPI.Controllers
             }
             carService.DeleteCar(id);
             return NoContent();
+        }
+
+        private static List<ValidationError> ReturnValidationError(ValidationResult validationResult)
+        {
+            var validationErrors = validationResult.Errors
+                .Select(e => new ValidationError { PropertyName = e.PropertyName, ErrorMessage = e.ErrorMessage })
+                .ToList();
+
+            return validationErrors;
         }
     }
 }

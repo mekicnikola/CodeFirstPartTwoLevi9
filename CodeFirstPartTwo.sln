@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstPartTwoService", "CodeFirstPartTwoService\CodeFirstPartTwoService.csproj", "{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstPartTwoService", "CodeFirstPartTwoService\CodeFirstPartTwoService.csproj", "{C1E1736B-DE08-4045-9808-EED1EB8DBDB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstPartTwoWebAPI", "CodeFirstPartTwoWebAPI\CodeFirstPartTwoWebAPI.csproj", "{85218A6E-FA95-4C8E-A279-45450EEF5B15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstPartTwoWebAPI", "CodeFirstPartTwoWebAPI\CodeFirstPartTwoWebAPI.csproj", "{85218A6E-FA95-4C8E-A279-45450EEF5B15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstPartTwoApplication", "CodeFirstPartTwoApplication\CodeFirstPartTwoApplication.csproj", "{DCF58089-C4B3-4753-9B8D-1FB7D853B0AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirstPartTwoApplication", "CodeFirstPartTwoApplication\CodeFirstPartTwoApplication.csproj", "{DCF58089-C4B3-4753-9B8D-1FB7D853B0AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstPartTwoService.Tests", "CodeFirstPartTwoService.Tests\CodeFirstPartTwoService.Tests.csproj", "{D00324B7-E34E-479D-BC6D-26AD3A2D7E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstPartTwoWebAPI.Tests", "CodeFirstPartTwoWebAPI.Tests\CodeFirstPartTwoWebAPI.Tests.csproj", "{489721C8-7373-4107-B627-F6B87A26C082}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{DCF58089-C4B3-4753-9B8D-1FB7D853B0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCF58089-C4B3-4753-9B8D-1FB7D853B0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCF58089-C4B3-4753-9B8D-1FB7D853B0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00324B7-E34E-479D-BC6D-26AD3A2D7E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00324B7-E34E-479D-BC6D-26AD3A2D7E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00324B7-E34E-479D-BC6D-26AD3A2D7E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00324B7-E34E-479D-BC6D-26AD3A2D7E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489721C8-7373-4107-B627-F6B87A26C082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489721C8-7373-4107-B627-F6B87A26C082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489721C8-7373-4107-B627-F6B87A26C082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489721C8-7373-4107-B627-F6B87A26C082}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
