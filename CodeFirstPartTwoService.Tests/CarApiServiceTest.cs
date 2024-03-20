@@ -2,12 +2,8 @@
 using Moq.Protected;
 using Moq;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CodeFirstPartTwoService.Tests
 {
@@ -24,7 +20,7 @@ namespace CodeFirstPartTwoService.Tests
                 StatusCode = HttpStatusCode.OK,
                 Content = new StringContent(JsonConvert.SerializeObject(new CarApiResponse.CarApiResponse
                 {
-                    Data = new List<CarData> { new() { Name = "TestModel", Make = new Make { Name = "TestBrand" } } }
+                    Data = [new CarData { Name = "TestModel", Make = new Make { Name = "TestBrand" } }]
                 }))
             };
 
@@ -56,7 +52,7 @@ namespace CodeFirstPartTwoService.Tests
                 StatusCode = HttpStatusCode.OK,
                 Content = new StringContent(JsonConvert.SerializeObject(new CarApiResponse.CarApiResponse
                 {
-                    Data = new List<CarData>()
+                    Data = []
                 }))
             };
 

@@ -6,8 +6,7 @@ namespace CodeFirstPartTwoService.Service
     public interface ICarService
     {
         IEnumerable<Car> GetAllCars();
-        Car GetCarById(int id);
-        Car AddCar(CreateCarDto carDto);
+        Car? GetCarById(int id);
         Task<Car> AddCarAsync(CreateCarDto carDto);
         void UpdateCar(int id, CreateCarDto carDto);
         void DeleteCar(int id);
